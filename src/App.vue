@@ -75,7 +75,9 @@ export default {
         </div>
 
         <Navbar/>
-        <RouterView />
+        <Transition name="slide-fade">
+          <RouterView />
+        </Transition>
       </main>
 
       <Footer/>
