@@ -1,35 +1,65 @@
-@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+.text-gradient {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.bg-gradient-primary-to-secondary {
+    background: #1e30f3;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+[data-bs-theme="light"] {
+    --bs-secondary: #e21e80;
+    --bs-secondary-rgb: 226, 30, 128;
+}
+
+[data-bs-theme="dark"] {
+    /*Background*/
+    --bs-body-bg: #000 !important;
+    --bs-secondary: #f273b2 !important;
+    --bs-secondary-rgb: 242, 115, 178 !important;
+
+    .text-gradient {
+        background: -webkit-linear-gradient(315deg, #5078ff 0%, #f273b2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .bg-gradient-primary-to-secondary {
+        background: #5078ff;
+        background: linear-gradient(135deg, #5078ff 0%, #f273b2 100%);
+    }
+
+    .text-primary {
+        color: #6ea8fe !important;
+    }
+
+    .btn-primary {
+        background-color: #6ea8fe !important;
+        color: #000 !important;
+    }
+
+    .btn-outline-dark {
+        color: #fff;
+        border-color: #fff !important;
+    }
 }
