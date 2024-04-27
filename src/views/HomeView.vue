@@ -1,9 +1,10 @@
 <script setup>
 
+import Hero from "@/components/Home/Hero.vue";
+import About from "@/components/Home/About.vue";
 </script>
 
 <template>
-  <div class="container mt-5">
-    <h1>Halo</h1>
-  </div>
+  <Hero/>
+  <About/>
 </template>
