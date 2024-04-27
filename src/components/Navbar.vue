@@ -16,7 +16,7 @@
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
           <li class="nav-item"><RouterLink to="/" class="nav-link">Home</RouterLink></li>
           <li class="nav-item"><RouterLink to="/resume" class="nav-link">Resume</RouterLink></li>
-          <li class="nav-item"><RouterLink to="/about" class="nav-link">Projects</RouterLink></li>
+          <li class="nav-item"><RouterLink to="/project" class="nav-link">Projects</RouterLink></li>
           <li class="nav-item"><RouterLink to="/contact" class="nav-link">Contact</RouterLink></li>
         </ul>
       </div>

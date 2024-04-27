@@ -16,8 +16,8 @@
             <RouterLink to="/resume" class="small text-decoration-none text-body">Resume</RouterLink>
             <span class="mx-1">&middot;</span>
           </template>
-          <template v-if="$route.path !== '/about'">
-            <RouterLink to="/about" class="small text-decoration-none text-body">About</RouterLink>
+          <template v-if="$route.path !== '/project'">
+            <RouterLink to="/project" class="small text-decoration-none text-body">Project</RouterLink>
             <span v-if="$route.path !== '/contact'" class="mx-1">&middot;</span>
           </template>
           <template v-if="$route.path !== '/contact'">
