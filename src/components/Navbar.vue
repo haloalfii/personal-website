@@ -3,14 +3,14 @@
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+  <nav class="navbar navbar-expand-lg navbar-light py-3">
     <div class="container px-5">
       <RouterLink to="/" class="navbar-brand">
-        <span class="fw-bolder text-primary">@haloalfii
+        <span class="fw-bolder text-gradient fs-4">@haloalfii
         </span>
       </RouterLink>
-      <a data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <box-icon name='menu-alt-right'></box-icon>
+      <a class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class='bx bx-menu-alt-right'></i>
       </a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
@@ -25,5 +25,8 @@
 </template>
 
 <style scoped>
-
+.navbar-toggler {
+  border: none !important;
+  font-size: 24px !important;
+}
 </style>

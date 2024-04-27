@@ -5,3 +5,34 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+.text-gradient {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+[data-bs-theme="dark"] {
+    /*Background*/
+    --bs-body-bg: #000 !important;
+
+    .text-gradient {
+        background: -webkit-linear-gradient(315deg, #5078ff 0%, #f273b2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text-primary {
+        color: #6ea8fe !important;
+    }
+
+    .btn-primary {
+        background-color: #6ea8fe !important;
+        color: #000 !important;
+    }
+
+    .btn-outline-dark {
+        color: #fff;
+        border-color: #fff !important;
+    }
+}
