@@ -5,6 +5,8 @@ import About from "@/components/Home/About.vue";
 </script>
 
 <template>
-  <Hero/>
-  <About/>
+  <div>
+    <Hero/>
+    <About/>
+  </div>
 </template>
