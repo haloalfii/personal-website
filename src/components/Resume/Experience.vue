@@ -14,6 +14,18 @@ export default {
           ]
         },
         {
+          year: "Feb 2024 - Sep 2024",
+          jobs: "Software Engineer",
+          company: "KiriminAja",
+          location: "Yogyakarta",
+          description: [
+            "Leveraged Laravel and Golang to enhance internal system functionalities, boosting performance and reliability.",
+            "Utilized Nuxt.js and Tailwind CSS to create a responsive, user-friendly dashboard, improving the overall user experience.",
+            "Worked closely with internal stakeholders to develop functional systems that effectively support team objectives.",
+            "Conducted comprehensive code reviews, optimized existing codebases, and implemented best practices to ensure scalability and maintainability."
+          ]
+        },
+        {
           year: "Feb 2022 - Feb 2024",
           jobs: "Software Engineer",
           company: "PT Gamatechno Indonesia",

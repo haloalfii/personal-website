@@ -22,14 +22,14 @@
 }
 
 .text-gradient {
-    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    background: -webkit-linear-gradient(315deg, #0459F1 0%, #6b3bf8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .bg-gradient-primary-to-secondary {
-    background: #1e30f3;
-    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    background: #0459F1;
+    background: linear-gradient(135deg, #0459F1 0%, #6b3bf8 100%);
 }
 
 .feature {
@@ -62,7 +62,7 @@
 }
 
 [data-bs-theme="light"] {
-    --bs-secondary: #e21e80;
+    --bs-secondary: #6b3bf8;
     --bs-secondary-rgb: 226, 30, 128;
 }
 
@@ -73,7 +73,7 @@
     --bs-secondary-rgb: 242, 115, 178 !important;
 
     .text-gradient {
-        background: -webkit-linear-gradient(315deg, #5078ff 0%, #f273b2 100%);
+        background: -webkit-linear-gradient(315deg, #5078ff 0%, #c4a1ff 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }

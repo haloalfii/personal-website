@@ -25,8 +25,8 @@
               <i class='fs-4 bx bxl-whatsapp' ></i> (+62) 81-565-326-54 </a>
           </div>
           <div class="mb-2">
-            <a href="https://www.instagram.com/haloalfii/" target="_blank" class="text-body fs-5 text-decoration-none">
-              <i class='fs-4 bx bxl-instagram' ></i> @haloalfii </a>
+            <a href="https://www.instagram.com/haloalfii.dev/" target="_blank" class="text-body fs-5 text-decoration-none">
+              <i class='fs-4 bx bxl-instagram' ></i> @haloalfii.dev </a>
           </div>
           <div class="mb-2">
             <a href="https://www.linkedin.com/in/haloalfii/" target="_blank" class="text-body fs-5 text-decoration-none">

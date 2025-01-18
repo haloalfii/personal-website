@@ -9,7 +9,7 @@
         <div class="col-xxl-8">
           <div class="text-center my-5">
             <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
-            <p class="lead fw-light mb-4">My name is Alfian Luthfi, Software Engineer at <a href="https://kiriminaja.com/" class="text-decoration-none text-gradient" target="_blank">KiriminAja</a> & <a href="https://duniacoding.id/" class="text-decoration-none text-gradient" target="_blank">Dunia Coding</a>.</p>
+            <p class="lead fw-light mb-4">My name is Alfian Luthfi, Software Engineer at <a href="https://utas.co/" class="text-decoration-none text-gradient" target="_blank">UTAS</a> & <a href="https://duniacoding.id/" class="text-decoration-none text-gradient" target="_blank">Dunia Coding</a>.</p>
             <p class="text-muted">
               Experienced Software Engineer with over 3 years of hands-on expertise in crafting innovative and high-performing web applications and products. Proficient in both front-end and back-end development, adept at leveraging these technologies to deliver efficient, scalable, and user-centric solutions.
             </p>
