@@ -4,6 +4,18 @@ export default {
     return {
       experiences:[
         {
+          year: "Sep 2024 - Present",
+          jobs: "Software Engineer",
+          company: "UTAS",
+          location: "Remote",
+          description: [
+            "Leveraged Phalcon and Laravel to develop and improve the UTAS product, enhancing performance, reliability, and functionality.",
+            "Collaborated with product teams and internal stakeholders to align system functionalities with company objectives.",
+            "Conducted code reviews, optimized existing code, and followed best practices to ensure scalability and maintainability across the codebase.",
+            "Created a customizable landing page builder for UTAS, enabling users to design and launch marketing pages with ease."
+          ]
+        },
+        {
           year: "Nov 2021 - Present",
           jobs: "Software Engineer",
           company: "Dunia Coding",
