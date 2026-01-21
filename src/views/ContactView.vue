@@ -24,10 +24,10 @@
             <a href="https://wa.me/628156532654" target="_blank" class="text-body fs-5 text-decoration-none">
               <i class='fs-4 bx bxl-whatsapp' ></i> (+62) 81-565-326-54 </a>
           </div>
-          <div class="mb-2">
+          <!-- <div class="mb-2">
             <a href="https://www.instagram.com/haloalfii.dev/" target="_blank" class="text-body fs-5 text-decoration-none">
               <i class='fs-4 bx bxl-instagram' ></i> @haloalfii.dev </a>
-          </div>
+          </div> -->
           <div class="mb-2">
             <a href="https://www.linkedin.com/in/haloalfii/" target="_blank" class="text-body fs-5 text-decoration-none">
               <i class='fs-4 bx bxl-linkedin' ></i> @haloalfii </a>
